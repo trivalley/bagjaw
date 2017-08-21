@@ -2,7 +2,7 @@
   "settings": {
     "currentPage": "RakenSweep.html",
     "versionFirst": "3.2",
-    "versionPublish": "4.1.7",
+    "versionPublish": "3.12.1",
     "name": "BagJaw",
     "theme": {
       "name": "mobirise3",
@@ -92,20 +92,24 @@
               "color": "#c0a375!important"
             }
           },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-b",
           "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": true,
             "bgColor": "#282828",
             "fontSize": 0.75,
             "fontName": {},
             "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
           },
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#contacts1-0\">Contact us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://bagjaw.com/pay-w-paypal.html\" target=\"_blank\">Order</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#testimonials4-0\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -123,11 +127,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">bagjaw.com</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-b"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#contacts1-0\">Contact us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://bagjaw.com/pay-w-paypal.html\" target=\"_blank\">Order</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#testimonials4-0\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_inherit": "header2",
@@ -158,24 +158,24 @@
           "_name": "header6",
           "_anchor": "header6-8",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "showArrow": true,
             "imageSize": 50,
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/bjframe-2000x1500.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.2",
             "overlayColor": "#ccc",
-            "overlayOpacity": "0.2"
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
           },
           "media": {
             "image": {
@@ -200,7 +200,7 @@
             }
           },
           "title": "BagJaw <i>by Rake \"n\" Sweep</i>",
-          "text": "<b>Super-wide dustpan attaches to trash bag in seconds without clips, snaps, bands or clumbsy frames!&nbsp;Rake or Sweep into a 33-40 gallon Drawstring Trash Bag.</b><br>",
+          "text": "<b>Super-wide dustpan attaches to trash bag in seconds without clips, snaps, bands or clumsy frames!&nbsp;Rake or Sweep into a 33-40 gallon Drawstring Trash Bag.</b><br>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"http://bagjaw.com/pay-w-paypal.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Buy Now</a>"
         },
         {
@@ -220,24 +220,24 @@
           "_name": "header6",
           "_anchor": "header6-0",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "showArrow": true,
             "imageSize": 50,
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/dphoa-greenbelt-and-sky-2000x1438-35.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.8",
             "overlayColor": "#ccc",
-            "overlayOpacity": "0.8"
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
           },
           "media": {
             "image": {
@@ -266,29 +266,29 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"http://bagjaw.com/pay-w-paypal.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Buy Now</a>"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-9",
           "_params": {
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#fff",
+            "bgColorRadio": true,
             "overlay": false,
-            "overlayColor": "#222",
             "overlayOpacity": 0.5,
+            "overlayColor": "#222",
             "facebook": true,
             "twitter": true,
             "google": true,
             "vkontakte": false,
             "odnoklassniki": false
           },
-          "text": "SHARE THIS PAGE!",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons1",
-          "_anchor": "social-buttons1-9"
+          "text": "SHARE THIS PAGE!"
         },
         {
           "_tags": [
@@ -305,11 +305,8 @@
           },
           "_params": {
             "autoplay": true,
-            "fullScreen": false,
             "paddingTop": 3,
             "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#fff",
             "timeout": 5,
             "slides": [
               {
@@ -340,7 +337,10 @@
                 "showButtons": true,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Buy Now $19.99 + $8 shipping</a> "
               }
-            ]
+            ],
+            "fullScreen": false,
+            "bgColor": "#fff",
+            "showBullets": true
           },
           "_anchor": "slider3-4",
           "articleLayout": false
@@ -394,45 +394,54 @@
           ],
           "_anchor": "testimonials4-0",
           "_params": {
-            "showTitle": true,
-            "showSubtitle": false,
-            "showImages": false,
-            "showName": true,
-            "showBio": false,
             "count": 3,
             "paddingTop": 3,
             "paddingBottom": 3,
+            "showImages": false,
+            "showName": true,
+            "showBio": false,
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/rs-hanging-up-2000x1125-7.jpg",
             "parallax": true,
-            "bgColorRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/rs-hanging-up-2000x1125-7.jpg",
             "bgColor": "#fff",
+            "bgColorRadio": false,
             "overlay": true,
+            "overlayOpacity": 0.2,
             "overlayColor": "#222",
-            "overlayOpacity": 0.2
+            "showTitle": true,
+            "showSubtitle": false
           },
           "title": "WHAT OUR FANTASTIC USERS SAY",
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          },
+          "_anchor": "form1-c",
           "_params": {
-            "showTitle": true,
-            "showSubTitle": true,
             "labelsColor": "#232323",
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#fff",
+            "bgColorRadio": true,
             "overlay": false,
+            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "showTitle": true,
+            "showSubTitle": true
           },
           "title": "CONTACT FORM",
           "subtitle": "Please email us with your questions or concerns.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
           "form": {
             "action": "jjj@trivalleypac.com",
             "alerts": {
@@ -440,18 +449,18 @@
             },
             "fields": {
               "name": {
-                "visible": true,
                 "title": "Name",
+                "visible": true,
                 "customTitle": "Name*"
               },
               "email": {
-                "visible": true,
                 "title": "Email",
+                "visible": true,
                 "customTitle": "Email*"
               },
               "phone": {
-                "visible": true,
                 "title": "Phone",
+                "visible": true,
                 "customTitle": "Phone"
               },
               "message": {
@@ -460,16 +469,7 @@
               }
             }
           },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_anchor": "form1-c",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>"
         },
         {
           "_name": "contacts1",
@@ -478,13 +478,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
           },
           "logo": {
             "image": {
@@ -521,24 +521,24 @@
           "_name": "header2",
           "_anchor": "header2-3",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": false,
-            "showArrow": true,
             "imageSize": 50,
+            "parallax": true,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/dscn3699-2000x1500-35.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
             "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": false,
+            "overlayOpacity": "0.9",
             "overlayColor": "#000",
-            "overlayOpacity": "0.9"
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
           },
           "media": {
             "image": {
@@ -585,24 +585,24 @@
           "_name": "header6",
           "_anchor": "header6-6",
           "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": true,
-            "inverse": true,
-            "showArrow": true,
             "imageSize": 50,
+            "parallax": false,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/dscn3700-2000x1500-70.jpg",
-            "parallax": false,
-            "bgColorRadio": false,
             "bgColor": "#2e2e2e",
-            "bgVideoRadio": false,
+            "bgColorRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
+            "bgVideoRadio": false,
             "overlay": true,
+            "overlayOpacity": "0.6",
             "overlayColor": "#ccc",
-            "overlayOpacity": "0.6"
+            "inverse": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
           },
           "media": {
             "image": {
@@ -654,8 +654,6 @@
           "_name": "slider2",
           "_params": {
             "autoplay": true,
-            "showBullets": true,
-            "bgColor": "#fff",
             "timeout": "5",
             "paddingTop": 4,
             "paddingBottom": 4,
@@ -703,7 +701,9 @@
                 "showButtons": true,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Buy Now</a> "
               }
-            ]
+            ],
+            "bgColor": "#fff",
+            "showBullets": true
           },
           "_anchor": "slider2-7"
         },
@@ -714,13 +714,13 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "bgColor": "#2e2e2e",
+            "bgColorRadio": true,
             "overlay": true,
-            "overlayColor": "#3C3C3C",
-            "overlayOpacity": 0.8
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
           },
           "logo": {
             "image": {
