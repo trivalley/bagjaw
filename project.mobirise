@@ -25,7 +25,7 @@
       "additionalSetColors": []
     },
     "scrollAnimation": "true",
-    "uniqCompNum": 18,
+    "uniqCompNum": 20,
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -43,6 +43,44 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dscn0811-2000x1500.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "Welcome to BagJaw",
+          "text": "You knew there must be an easier way to keep trash bags open You just found it!!<br>Easily rake and sweep up your yard.. <br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-i",
+          "_styles": {
+            ".mbr-section-lead": {
+              "font-size": "32px",
+              "color": "#ffffff"
+            },
+            ".mbr-section-title": {
+              "color": "#f7da64"
+            }
+          }
+        },
         {
           "_styles": {
             ".hide-buttons .nav-btn": {
@@ -246,14 +284,14 @@
               "link": "https://youtu.be/wM6N8sJdcZY",
               "alt": "Rake ",
               "title": "Dustpan with a Bag",
-              "linkInNewWindow": false
+              "linkInNewWindow": false,
+              "active": true
             },
             "video": {
               "src": "https://youtu.be/wM6N8sJdcZY",
               "aspectratio": "16:9",
               "autoplay": false,
-              "loop": false,
-              "active": true
+              "loop": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-header2",
