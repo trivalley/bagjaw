@@ -1,6 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lora:400,700);
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,700);
+@import url(../../../https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(../../../https://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(../../../https://fonts.googleapis.com/css?family=Raleway:400,300,700);
 
 
 
@@ -492,13 +492,16 @@ h6,
   font-size: 20px;
 }
 #header6-0 .mbr-section-title {
-  color: #28262b;
-  font-size: 20px;
+  color: #ffffff;
+  font-size: 24px;
 }
 #header6-0 .mbr-section-text {
-  color: #565656;
+  color: #ffffff;
 }
 #header6-0 P {
+  font-size: 20px;
+}
+#social-buttons1-9 .mbr-section-title {
   font-size: 20px;
 }
 #slider3-4 H2 {
@@ -509,29 +512,4 @@ h6,
 }
 #form1-c .form-control-label {
   color: #232323;
-}
-#header6-6 .mbr-section-title {
-  color: #28262b;
-}
-#header6-6 .mbr-section-text {
-  color: #565656;
-}
-#header6-6 B {
-  color: #ffffff;
-}
-#slider2-7 .mbr-section-title,
-#slider2-7 .mbr-section-lead {
-  color: #fff;
-}
-#slider2-7 H2 {
-  text-align: center;
-}
-#slider2-7 P {
-  color: #ffffff;
-  text-align: center;
-  font-size: 30px;
-}
-#slider2-7 B {
-  color: #ffffff;
-  font-size: 24px;
 }
