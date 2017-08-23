@@ -412,13 +412,6 @@ h6,
 .scrollToTop_wraper {
   opacity: 0 !important;
 }
-#header1-i .mbr-section-lead {
-  font-size: 32px;
-  color: #ffffff;
-}
-#header1-i .mbr-section-title {
-  color: #f7da64;
-}
 #menu-b .hide-buttons .nav-btn {
   display: none !important;
 }
@@ -479,6 +472,9 @@ h6,
 #menu-b .link[aria-expanded="true"],
 #menu-b .dropdown-item[aria-expanded="true"] {
   color: #c0a375!important;
+}
+#header1-i .mbr-section-title {
+  color: #f7da64;
 }
 #header6-8 .mbr-section-title {
   color: #f7da64;

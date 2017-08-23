@@ -25,7 +25,7 @@
       "additionalSetColors": []
     },
     "scrollAnimation": "true",
-    "uniqCompNum": 20,
+    "uniqCompNum": 19,
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": "",
@@ -43,44 +43,6 @@
         "html_before": ""
       },
       "components": [
-        {
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButtons": false,
-            "showArrow": true,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/dscn0811-2000x1500.jpg",
-            "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#a07e49",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#000",
-            "overlayOpacity": 0.5
-          },
-          "title": "Welcome to BagJaw",
-          "text": "You knew there must be an easier way to keep trash bags open You just found it!!<br>Easily rake and sweep up your yard.. <br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">DOWNLOAD FOR WINDOWS</a> ",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_anchor": "header1-i",
-          "_styles": {
-            ".mbr-section-lead": {
-              "font-size": "32px",
-              "color": "#ffffff"
-            },
-            ".mbr-section-title": {
-              "color": "#f7da64"
-            }
-          }
-        },
         {
           "_styles": {
             ".hide-buttons .nav-btn": {
@@ -166,6 +128,40 @@
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">bagjaw.com</a>",
           "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#contacts1-0\">Contact us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://bagjaw.com/pay-w-paypal.html\" target=\"_blank\">Order</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#testimonials4-0\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+        },
+        {
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": true,
+            "contentAlign": "center",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/dscn0811-2000x1500.jpg",
+            "parallax": true,
+            "bgColorRadio": false,
+            "bgColor": "#a07e49",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#000",
+            "overlayOpacity": 0.5
+          },
+          "title": "Welcome to BagJaw",
+          "text": "You knew there must be an easier way to keep trash bags open.&nbsp;<br>You just found it!!\n<br>Easily rake and sweep up your yard.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-i",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#f7da64"
+            }
+          }
         },
         {
           "_inherit": "header2",
@@ -281,7 +277,7 @@
             "image": {
               "width": 1400,
               "src": "@PROJECT_PATH@/assets/images/kristyft-863x900.jpg",
-              "link": "https://youtu.be/wM6N8sJdcZY",
+              "link": "",
               "alt": "Rake ",
               "title": "Dustpan with a Bag",
               "linkInNewWindow": false,
@@ -353,7 +349,7 @@
             "paddingBottom": 3,
             "showBullets": true,
             "bgColor": "#fff",
-            "timeout": "8",
+            "timeout": 5,
             "slides": [
               {
                 "active": false,
