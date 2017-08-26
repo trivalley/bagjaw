@@ -118,7 +118,7 @@
               "alt": "Mobirise",
               "link": "http://bagjaw.com",
               "title": "",
-              "linkInNewWindow": false
+              "linkInNewWindow": true
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -126,10 +126,20 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">bagjaw.com</a>",
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://bagjaw.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">bagjaw.com</a>",
           "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#contacts1-0\">Contact us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://bagjaw.com/pay-w-paypal.html\" target=\"_blank\">Order</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#testimonials4-0\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#f7da64"
+            }
+          },
+          "_anchor": "header1-i",
           "_params": {
             "showTitle": true,
             "showText": true,
@@ -151,17 +161,7 @@
           },
           "title": "Welcome to BagJaw",
           "text": "You knew there must be an easier way to keep trash bags open.&nbsp;<br>You just found it!!\n<br>Easily rake and sweep up your yard.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "header1",
-          "_anchor": "header1-i",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#f7da64"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_inherit": "header2",
@@ -216,8 +216,8 @@
               "width": 1400,
               "src": "file:///C:/Program%20Files%20(x86)/Mobirise4/resources/app.asar/web/app/builder/../../../web/app/themes/mobirise3/components/_images/gallery/coworkers.jpg",
               "link": "",
-              "alt": "",
-              "title": "",
+              "alt": "BagJaw",
+              "title": "Attach Trash Bag to BagJaw in seconds.",
               "linkInNewWindow": false
             },
             "video": {
@@ -279,7 +279,7 @@
               "src": "@PROJECT_PATH@/assets/images/kristyft-863x900.jpg",
               "link": "",
               "alt": "Rake ",
-              "title": "Dustpan with a Bag",
+              "title": "BagJaw Trash Bag Holder",
               "linkInNewWindow": false,
               "active": true
             },
@@ -304,6 +304,11 @@
             "Theme"
           ],
           "_name": "social-buttons1",
+          "_styles": {
+            ".mbr-section-title": {
+              "font-size": "20px"
+            }
+          },
           "_anchor": "social-buttons1-9",
           "_params": {
             "paddingTop": 3,
@@ -322,12 +327,7 @@
             "vkontakte": false,
             "odnoklassniki": false
           },
-          "text": "SHARE THIS PAGE!",
-          "_styles": {
-            ".mbr-section-title": {
-              "font-size": "20px"
-            }
-          }
+          "text": "SHARE THIS PAGE!"
         },
         {
           "_tags": [
