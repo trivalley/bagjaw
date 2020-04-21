@@ -363,7 +363,7 @@
                 "showText": true,
                 "text": "Choose the one that gets the job done fast!<br>Shown with the optional Rake 'n\" Sweep reusable bag.",
                 "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"http://bagjaw.com/pay-w-paypal.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Buy Now $19.99 + $8 shipping</a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"http://bagjaw.com/pay-w-paypal.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Out of Stock</a> "
               },
               {
                 "active": true,
