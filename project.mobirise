@@ -344,12 +344,12 @@
           },
           "_params": {
             "autoplay": true,
-            "fullScreen": false,
+            "fullScreen": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "showBullets": true,
             "bgColor": "#fff",
-            "timeout": 5,
+            "timeout": "10",
             "slides": [
               {
                 "active": false,
