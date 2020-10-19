@@ -124,7 +124,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/newbagjawlogoweb-134x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/bagjaw-logo-2020-with-rsrev1-122x128.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "http://bagjaw.com",
@@ -138,7 +138,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://bagjaw.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">bagjaw.com</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#contacts1-0\">Contact us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://bagjaw.com/pay-w-paypal.html\" target=\"_blank\">Order</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#testimonials4-0\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#contacts1-0\">Contact us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#testimonials4-0\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
         },
         {
           "_tags": [
@@ -174,8 +174,8 @@
             "overlayOpacity": 0.5
           },
           "title": "Welcome to BagJaw",
-          "text": "You knew there must be an easier way to keep trash bags open.&nbsp;<br>You just found it!!\n<br>Rake or sweep into a standard 33-39 gallon&nbsp;<br>drawstring trash bag.<br><br><br>Made in USA<br><br><br><br><br><br><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=17.99&amp;item_name=BagJaw&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$17.99 Add to Cart</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Buy Now</a>"
+          "text": "You knew there must be an easier way to keep trash bags open.&nbsp;<br>You just found it!!\n<br>Rake or sweep into a standard 33-39 gallon&nbsp;<br>drawstring trash bag.<br><br>Free Shipping!<br><br>Made in USA<br><br><br><br><br><br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=17.99&amp;item_name=BagJaw%20-%20(Bag%20not%20included.)&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$17.99 Add to Cart</a> "
         },
         {
           "_inherit": "header2",
@@ -235,9 +235,9 @@
               "size": 0
             }
           },
-          "title": "<br>Think about this the next time you &nbsp;bend over to pick up a pile of leaves or clippings. <br><br>You could just hold with your foot, rake or sweep &nbsp;in &nbsp;and lift from knee height.",
+          "title": "<br>Think about this the next time you &nbsp;bend over to pick up a pile of leaves or clippings. <br><br>You could just hold with your foot, rake or sweep &nbsp;in &nbsp;and lift from knee height. <br>(Bag not included.)",
           "text": "How do you do it? No bending is better!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=17.99&amp;item_name=BagJaw&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">$17.99 Add to Cart</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=17.99&amp;item_name=BagJaw%20(Bag%20not%20included.)&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$17.99 Add to Cart</a>"
         },
         {
           "_inherit": "header2",
@@ -273,10 +273,10 @@
             "showButtons": true,
             "inverse": true,
             "showArrow": true,
-            "imageSize": 50,
+            "imageSize": "49",
             "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/bjframe-2000x1500.jpg",
-            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/bjframe6-529x320.jpg",
+            "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#41a85f",
             "bgVideoRadio": false,
@@ -285,7 +285,7 @@
             },
             "overlay": true,
             "overlayColor": "#24910f",
-            "overlayOpacity": "0.6"
+            "overlayOpacity": "0.3"
           },
           "media": {
             "image": {
@@ -310,8 +310,8 @@
             }
           },
           "title": "&nbsp;How to attach a BagJaw&nbsp;&nbsp;",
-          "text": "Super-wide dustpan attaches to trash bag in seconds without clips, snaps, bands or clumsy frames!&nbsp;Rake or Sweep into a 33-39 gallon Drawstring Trash Bag.<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=17.99&amp;item_name=BagJaw&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Add to Cart</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"http://bagjaw.com/pay-w-paypal.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">$17.99 Buy Now</a>"
+          "text": "24\" wide dustpan attaches to trash bag in seconds without clips, snaps, bands or clumsy frames!&nbsp;Rake or Sweep into a 33-39 gallon Drawstring Trash Bag. (Bag not included.)<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=17.99&amp;item_name=BagJaw%20(Bag%20not%20included.)&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$17.99 Add to Cart</a> "
         },
         {
           "_tags": [
@@ -377,7 +377,7 @@
                 "showText": true,
                 "text": "Choose the one that gets the job done fast!<br>Shown with the optional Rake 'n\" Sweep reusable bag.",
                 "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"http://bagjaw.com/pay-w-paypal.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">Out of Stock</a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"http://bagjaw.com/pay-w-paypal.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">$28.99 Add to Cart</a> "
               },
               {
                 "active": true,
@@ -391,7 +391,7 @@
                 "showText": true,
                 "text": "Empty into green carts easily and without spillage.",
                 "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=28.99&amp;item_name=Rake%20%22n%22%20Sweep&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$28.99 Add to Cart</a> ",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=28.99&amp;item_name=Rake%20%22n%22%20Sweep%20-%20Reusable%20Bag%20Included&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$28.99 Add to Cart</a> ",
                 "alt": "Reusable Bag"
               }
             ]
@@ -542,7 +542,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/newbagjawlogoweb-128x121.jpg",
+              "src": "@PROJECT_PATH@/assets/images/bagjaw-logo-2020-128x134.jpg",
               "width": 128,
               "active": true,
               "link": "www.bagjaw.com",
@@ -695,7 +695,7 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/newbagjawlogoweb-134x128.jpg",
+              "src": "@PROJECT_PATH@/assets/images/bagjaw-logo-2020-with-rsrev1-122x128.jpg",
               "height": 128,
               "alt": "Mobirise",
               "link": "http://bagjaw.com",
@@ -709,7 +709,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://bagjaw.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">bagjaw.com</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#contacts1-0\">Contact us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://bagjaw.com/pay-w-paypal.html\" target=\"_blank\">Order</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#testimonials4-0\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#contacts1-0\">Contact us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#testimonials4-0\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
           "_anchor": "menu-o"
         },
         {
@@ -728,7 +728,7 @@
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/newbagjawlogoweb-128x121.jpg",
+              "src": "@PROJECT_PATH@/assets/images/bagjaw-logo-2020-128x134.jpg",
               "width": 128,
               "active": true,
               "link": "www.bagjaw.com",
