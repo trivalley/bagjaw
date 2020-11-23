@@ -28,19 +28,30 @@
       ]
     },
     "scrollAnimation": "true",
-    "uniqCompNum": 28,
+    "uniqCompNum": 83,
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
-    "favicon": "",
+    "favicon": false,
     "noImageResize": "true",
     "google-analytics": "",
-    "siteUrl": "undefined",
+    "siteUrl": "http://bagjaw.com",
     "siteFonts": [],
     "imageResize": true,
     "publishChangesOnly": true,
     "mcShopcart": {
       "email": "jjj@trivalleypac.com",
       "currency": "USD"
+    },
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "cookiesAlert": false,
+    "gdpr": {
+      "colorText": "#a7a7a7",
+      "colorLink": "#149dcc",
+      "underlineLink": false,
+      "text": "By continuing you agree to our <a href='terms.html'>Terms of Service</a> and <a href='policy.html'>Privacy Policy</a>."
     }
   },
   "pages": {
@@ -55,12 +66,33 @@
       },
       "components": [
         {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "_tags": [
+            "Theme"
+          ],
           "_styles": {
             ".hide-buttons .nav-btn": {
               "display": "none !important"
             },
             ".navbar-caption": {
               "color": "#ffffff"
+            },
+            "A": {
+              "font-size": "18px"
             },
             ".navbar-toggler": {
               "color": "#ffffff"
@@ -103,33 +135,14 @@
               "color": "#c0a375!important"
             }
           },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_anchor": "menu-b",
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": true,
-            "bgColor": "#282828",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
-          },
           "logo": {
             "image": {
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/bagjaw-logo-2020-with-rsrev1-122x128.jpg",
               "height": 128,
-              "alt": "Mobirise",
-              "link": "http://bagjaw.com",
-              "title": "",
-              "linkInNewWindow": true
+              "alt": "BagJaw Holds Trash Bags Open",
+              "link": "https://bagjaw.com",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -137,8 +150,9 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://bagjaw.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">bagjaw.com</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#contacts1-0\">Contact us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#testimonials4-0\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BagJaw.com</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2a"
         },
         {
           "_tags": [
@@ -155,7 +169,7 @@
           },
           "_anchor": "header1-i",
           "_params": {
-            "showTitle": true,
+            "showTitle": false,
             "showText": true,
             "showButtons": true,
             "showArrow": true,
@@ -174,21 +188,26 @@
             "overlayOpacity": 0.5
           },
           "title": "Welcome to BagJaw",
-          "text": "You knew there must be an easier way to keep trash bags open.&nbsp;<br>You just found it!!\n<br>Rake or sweep into a standard 33-39 gallon&nbsp;<br>drawstring trash bag.<br><br>Free Shipping!<br><br>Made in USA<br><br><br><br><br><br><br><br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=17.99&amp;item_name=BagJaw%20-%20(Bag%20not%20included.)&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$17.99 Add to Cart</a> "
+          "text": "<b>You knew there must be an easier way to keep trash bags open.&nbsp;<br>You just found it!!\n<br>Rake or sweep into a standard 33-39 gallon&nbsp;<br>drawstring trash bag.</b><br><br><br><b>Made in USA</b><br><br><br><br><br><br><br><br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=12.99&amp;item_name=BagJaw%20-%20(Bag%20not%20included.)&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$12.99 + Shipping Add to Cart</a> "
         },
         {
           "_inherit": "header2",
           "_styles": {
             ".mbr-section-title": {
-              "color": "#41a85f",
+              "color": "#ffffff",
               "font-size": "24px"
             },
             ".mbr-section-text": {
-              "color": "#41a85f"
+              "color": "#ffffff",
+              "text-align": "right",
+              "font-size": "15px"
             },
             "P": {
               "font-size": "20px"
+            },
+            ".mbr-section-title SPAN": {
+              "font-size": "18px"
             }
           },
           "_name": "header6",
@@ -202,14 +221,14 @@
             "imageSize": 50,
             "bgImageRadio": true,
             "bgImage": "@PROJECT_PATH@/assets/images/dphoa-greenbelt-and-sky-2000x1438-35.jpg",
-            "parallax": true,
+            "parallax": false,
             "bgColorRadio": false,
             "bgColor": "#2e2e2e",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#ccc",
             "overlayOpacity": "0.4"
           },
@@ -235,9 +254,9 @@
               "size": 0
             }
           },
-          "title": "<br>Think about this the next time you &nbsp;bend over to pick up a pile of leaves or clippings. <br><br>You could just hold with your foot, rake or sweep &nbsp;in &nbsp;and lift from knee height. <br>(Bag not included.)",
+          "title": "<br><span style=\"font-weight: normal;\">Think about this the next time you &nbsp;bend over a pile of leaves or clippings. <br>(Bag not included.)</span>",
           "text": "How do you do it? No bending is better!",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=17.99&amp;item_name=BagJaw%20(Bag%20not%20included.)&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$17.99 Add to Cart</a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=12.99&amp;item_name=BagJaw%20(Bag%20not%20included.)&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$12.99 + Shipping Add to Cart</a>"
         },
         {
           "_inherit": "header2",
@@ -298,8 +317,8 @@
             },
             "video": {
               "active": true,
-              "src": "https://www.youtube.com/watch?v=QpqpkfwqgoI",
-              "aspectratio": "4:3",
+              "src": "https://www.youtube.com/watch?v=soqcSoacLMk",
+              "aspectratio": "16:9",
               "autoplay": false,
               "loop": "on"
             },
@@ -311,7 +330,7 @@
           },
           "title": "&nbsp;How to attach a BagJaw&nbsp;&nbsp;",
           "text": "24\" wide dustpan attaches to trash bag in seconds without clips, snaps, bands or clumsy frames!&nbsp;Rake or Sweep into a 33-39 gallon Drawstring Trash Bag. (Bag not included.)<br>",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=17.99&amp;item_name=BagJaw%20(Bag%20not%20included.)&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$17.99 Add to Cart</a> "
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white-outline btn-white\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=12.99&amp;item_name=BagJaw%20(Bag%20not%20included.)&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$12.99 + Shipping Add to Cart</a> "
         },
         {
           "_tags": [
@@ -342,62 +361,6 @@
             "odnoklassniki": false
           },
           "text": "SHARE THIS PAGE!"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "slider3",
-          "_styles": {
-            "H2": {
-              "text-align": "left"
-            },
-            "P": {
-              "text-align": "center"
-            }
-          },
-          "_params": {
-            "autoplay": true,
-            "fullScreen": true,
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "showBullets": true,
-            "bgColor": "#fff",
-            "timeout": "10",
-            "slides": [
-              {
-                "active": false,
-                "image": "@PROJECT_PATH@/assets/images/dscn3597-2000x2666-3.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "Which dust pan would you choose?",
-                "showText": true,
-                "text": "Choose the one that gets the job done fast!<br>Shown with the optional Rake 'n\" Sweep reusable bag.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"http://bagjaw.com/pay-w-paypal.html\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">$28.99 Add to Cart</a> "
-              },
-              {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/dscn3568-2000x1500.jpeg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
-                "overlay": true,
-                "contentAlign": "right",
-                "showTitle": true,
-                "title": "Rake \"n\" Sweep Reusable Bag included<br>Made to fit&nbsp;",
-                "showText": true,
-                "text": "Empty into green carts easily and without spillage.",
-                "showButtons": true,
-                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=28.99&amp;item_name=Rake%20%22n%22%20Sweep%20-%20Reusable%20Bag%20Included&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$28.99 Add to Cart</a> ",
-                "alt": "Reusable Bag"
-              }
-            ]
-          },
-          "_anchor": "slider3-4",
-          "articleLayout": false
         },
         {
           "_inherit": "testimonials2",
@@ -469,63 +432,6 @@
           "subtitle": "Shape your future web project with sharp design and refine coded functions."
         },
         {
-          "_params": {
-            "showTitle": true,
-            "showSubTitle": true,
-            "labelsColor": "#232323",
-            "paddingTop": 3,
-            "paddingBottom": 3,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#fff",
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "CONTACT US",
-          "subtitle": "Thank you for your interest in our product. Please submit your question or comment to us below.",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\">CONTACT US</a>",
-          "form": {
-            "action": "trivalleypro@gmail.com",
-            "alerts": {
-              "success": "Thanks for filling out form!"
-            },
-            "fields": {
-              "name": {
-                "visible": true,
-                "title": "Name",
-                "customTitle": "Name*"
-              },
-              "email": {
-                "visible": true,
-                "title": "Email",
-                "customTitle": "Email*"
-              },
-              "phone": {
-                "visible": true,
-                "title": "Phone",
-                "customTitle": "Phone"
-              },
-              "message": {
-                "title": "Message",
-                "customTitle": "Message"
-              }
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "form1",
-          "_anchor": "form1-r",
-          "_styles": {
-            ".form-control-label": {
-              "color": "#232323"
-            }
-          }
-        },
-        {
           "_name": "contacts1",
           "_anchor": "contacts1-0",
           "_params": {
@@ -556,17 +462,37 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Danville, CA 94526</span><br>",
-          "text2": "<strong>Contacts</strong><br>\nPhone: (925) 838-2480<br><br><br><br>",
+          "text1": "<strong>Address</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">311 McCloud Pl</span><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Danville, CA 94526</span><br>",
+          "text2": "<strong>Contacts</strong><br>\nPhone: (925) 838-2480<br>email: info@trivalleypac.com<br><br><br><br>",
           "text3": "<p><strong>Links</strong><br>Rake \"n\" Sweep reusable bag<br><br></p>"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2020 Mobirise.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-u"
         }
       ]
     },
     "page2.html": {
       "settings": {
-        "meta_descr": "Website Builder Description",
+        "meta_descr": "Contact the manufacturer of BagJaw.",
         "title": "Contact Us",
-        "order": 1
+        "order": 4
       },
       "components": [
         {
@@ -586,7 +512,7 @@
             "overlayOpacity": 0.5
           },
           "title": "CONTACT FORM",
-          "subtitle": "Please email us with your questions or concerns.",
+          "subtitle": "Thank you for your interest in our product. Please submit your question or comment to us below.\n<br>All purchases have a 30 day 100% satisfaction money back guarantee-excluding shipping .",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">CONTACT US</a>",
           "form": {
             "action": "info@trivalleypac.com",
@@ -627,6 +553,59 @@
           }
         },
         {
+          "_name": "contacts1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bagjaw-logo-2020-128x134.jpg",
+              "width": 128,
+              "active": true,
+              "link": "www.bagjaw.com",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">311 McCloud Pl</span><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Danville, CA 94526</span><br>",
+          "text2": "<strong>Contacts</strong><br>\nPhone: (925) 838-2480<br>email: info@trivalleypac.com<br><br><br><br>",
+          "text3": "<p><strong>Links</strong><br>Rake \"n\" Sweep reusable bag<br><br></p>",
+          "_anchor": "contacts1-p"
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "_tags": [
+            "Theme"
+          ],
           "_styles": {
             ".hide-buttons .nav-btn": {
               "display": "none !important"
@@ -634,73 +613,18 @@
             ".navbar-caption": {
               "color": "#ffffff"
             },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "0.75rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#c0a375!important"
+            "A": {
+              "font-size": "18px"
             }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "menu",
-          "_params": {
-            "logo": true,
-            "showBrand": true,
-            "hideButtons": true,
-            "sticky": true,
-            "collapsed": true,
-            "transparent": true,
-            "bgColor": "#282828",
-            "fontSize": 0.75,
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor"
           },
           "logo": {
             "image": {
               "active": true,
               "src": "@PROJECT_PATH@/assets/images/bagjaw-logo-2020-with-rsrev1-122x128.jpg",
               "height": 128,
-              "alt": "Mobirise",
-              "link": "http://bagjaw.com",
-              "title": "",
-              "linkInNewWindow": true
+              "alt": "BagJaw Holds Trash Bags Open",
+              "link": "https://bagjaw.com",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -708,9 +632,55 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"http://bagjaw.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\" target=\"_blank\">bagjaw.com</a>",
-          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#contacts1-0\">Contact us</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"RakenSweep.html#testimonials4-0\">Testimonials</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\" aria-expanded=\"false\"></a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">DOWNLOAD</a></li>",
-          "_anchor": "menu-o"
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BagJaw.com</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2a"
+        }
+      ]
+    },
+    "page3.html": {
+      "settings": {
+        "meta_descr": "",
+        "title": "Shipping",
+        "order": 3
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            ".lead P": {
+              "font-size": "20px"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/uspstruck-2000x1309.jpeg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "<div>Shipping Rates &amp; Return Policies\n</div><div>\n</div><div><br></div>",
+          "text": "<p>&nbsp;30 day 100% satisfaction money back guarantee-excluding shipping . </p><p>We ship same day from CA Monday - Friday. </p><p>Standard Transit times apply&nbsp; 1-5 work days. </p><p>Shipping rates applied to purchases&nbsp; are as follows;</p><p><span style=\"font-size: 1.07rem;\">Currency:</span><br></p><p>U.S. Dollar\n</p><p>\n</p><p>Region:\n</p><p>All States and Territories\n</p><p>\n</p><p><span style=\"font-size: 1.07rem;\">Shipping Method(s):</span><br></p><p>Based On&nbsp;<span style=\"font-size: 1.07rem;\">Amount</span></p><p>\n</p><p>Shipping Method:\n</p><p>Standard- Expedited\n</p><p>\n</p><p>Select delivery time:\n</p><p>1-5 business days\n</p><p>\n</p><p>Shipping Rates:\n</p><p>From(USD)\tTo(USD)\tRate(USD)\n</p><p>$0.01 to 12.99 $5.99\n</p><p>$13.00 to 21.99 $7.99\n</p><p>$22.00 to 34.98 $11.59\n</p><p>$34.99 to 56.95 $14.14\n</p><p>$56.96\tand up $18.54\n</p><p>\n</p><p><br></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-17"
         },
         {
           "_name": "contacts1",
@@ -742,10 +712,439 @@
               "size": 0
             }
           },
-          "text1": "<strong>Address</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Danville, CA 94526</span><br>",
-          "text2": "<strong>Contacts</strong><br>\nPhone: (925) 838-2480<br><br><br><br>",
+          "text1": "<strong>Address</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">311 McCloud Pl</span><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Danville, CA 94526</span><br>",
+          "text2": "<strong>Contacts</strong><br>\nPhone: (925) 838-2480<br>email: info@trivalleypac.com<br><br><br><br>",
           "text3": "<p><strong>Links</strong><br>Rake \"n\" Sweep reusable bag<br><br></p>",
-          "_anchor": "contacts1-p"
+          "_anchor": "contacts1-12"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2020 Mobirise.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-13"
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            "A": {
+              "font-size": "18px"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bagjaw-logo-2020-with-rsrev1-122x128.jpg",
+              "height": 128,
+              "alt": "BagJaw Holds Trash Bags Open",
+              "link": "https://bagjaw.com",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BagJaw.com</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2a"
+        }
+      ]
+    },
+    "page4.html": {
+      "settings": {
+        "title": "How to assemble BagJaw",
+        "meta_descr": "Quick and easy video instructions on how to assemble a BagJaw. Made in USA",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 2
+      },
+      "components": [
+        {
+          "_inherit": "header2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#28262b"
+            },
+            ".mbr-section-text": {
+              "color": "#ffffff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "inverse": true,
+            "showArrow": true,
+            "imageSize": 50,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/bagjaw-parts-listnobackce-2000x1459.jpeg",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#2a8845",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#41a85f",
+            "overlayOpacity": "0.9"
+          },
+          "media": {
+            "image": {
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=HmSLyaGs9do",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": "on"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "How to assemble your BagJaw.",
+          "text": "Assemble in less than 2 minutes.<br>Insert the ends of the rods through the raised corner holes of the dustpan. Set #4 Cube Tool on a flat surface,  raised side down. Insert #5 Push-On Ring (crown side down #5a) into top round hole of Cube Tool.   Push one rod end  through #5 Ring in Cube Tool until Ring is snug against the underside of the Dustpan.  Repeat with other rod at oppoosite end of Dustpan.  Cover rod ends with #6 Vinyl Caps.&nbsp;<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-black-outline btn-black\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=12.99&amp;item_name=BagJaw&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$12.99 + Shipping Add to Cart</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header6",
+          "_anchor": "header6-1e"
+        },
+        {
+          "_name": "contacts1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bagjaw-logo-2020-128x134.jpg",
+              "width": 128,
+              "active": true,
+              "link": "www.bagjaw.com",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">311 McCloud Pl</span><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Danville, CA 94526</span><br>",
+          "text2": "<strong>Contacts</strong><br>\nPhone: (925) 838-2480<br>email: info@trivalleypac.com<br><br><br><br>",
+          "text3": "<p><strong>Links</strong><br>Rake \"n\" Sweep reusable bag<br><br></p>",
+          "_anchor": "contacts1-1h"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2020 Mobirise.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1i"
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            "A": {
+              "font-size": "18px"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bagjaw-logo-2020-with-rsrev1-122x128.jpg",
+              "height": 128,
+              "alt": "BagJaw Holds Trash Bags Open",
+              "link": "https://bagjaw.com",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BagJaw.com</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2a"
+        }
+      ]
+    },
+    "page5.html": {
+      "settings": {
+        "title": "Rake \"n\" Sweep",
+        "meta_descr": "Rake \"n\" Sweep is our name for a BagJaw with a reusable bag included. Made in USA",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 1
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_styles": {
+            "H2": {
+              "text-align": "left"
+            },
+            "P": {
+              "text-align": "center"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": "10",
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dscn3597-2000x2666-3.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "Which dust pan would you choose?",
+                "showText": true,
+                "text": "Choose the one that gets the job done fast!<br>Shown with the optional Rake 'n\" Sweep reusable bag.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=21.99&amp;item_name=Rake%20%22n%22%20Sweep%20with%20Reusable%20Bag&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">$21.99 + Shipping Add to Cart</a> "
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/dscn3568-2000x1500.jpeg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "Rake \"n\" Sweep Reusable Bag included<br>Made to fit&nbsp;",
+                "showText": true,
+                "text": "Empty into green carts easily and without spillage.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=21.99&amp;item_name=Rake%20%22n%22%20Sweep%20-%20Reusable%20Bag%20Included&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$21.99 + Shipping Add to Cart</a> ",
+                "alt": "Reusable Bag"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/dscn3621-2000x1500.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": true,
+                "contentAlign": "right",
+                "showTitle": true,
+                "title": "Which dust pan would you choose?",
+                "showText": true,
+                "text": "Choose the one that gets the job done fast!<br>Shown with the optional Rake 'n\" Sweep reusable bag.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-white\" href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_cart&amp;amount=21.99&amp;item_name=Custom%20Item&amp;currency_code=USD\" data-toolbar=\"-mbrBtnMove\">$21.99 + Shipping Add to Cart</a> ",
+                "alt": ""
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_anchor": "slider3-1n"
+        },
+        {
+          "_name": "contacts1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bagjaw-logo-2020-128x134.jpg",
+              "width": 128,
+              "active": true,
+              "link": "www.bagjaw.com",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">311 McCloud Pl</span><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Danville, CA 94526</span><br>",
+          "text2": "<strong>Contacts</strong><br>\nPhone: (925) 838-2480<br>email: info@trivalleypac.com<br><br><br><br>",
+          "text3": "<p><strong>Links</strong><br>Rake \"n\" Sweep reusable bag<br><br></p>",
+          "_anchor": "contacts1-1q"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2020 Mobirise.",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-1r"
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            "A": {
+              "font-size": "18px"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bagjaw-logo-2020-with-rsrev1-122x128.jpg",
+              "height": 128,
+              "alt": "BagJaw Holds Trash Bags Open",
+              "link": "https://bagjaw.com",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BagJaw.com</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2a"
         }
       ]
     }
