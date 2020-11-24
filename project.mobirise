@@ -37,7 +37,7 @@
     "siteUrl": "http://bagjaw.com",
     "siteFonts": [],
     "imageResize": true,
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "mcShopcart": {
       "email": "jjj@trivalleypac.com",
       "currency": "USD"
