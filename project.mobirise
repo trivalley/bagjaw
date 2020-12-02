@@ -356,7 +356,7 @@
             "overlayOpacity": 0.5,
             "facebook": true,
             "twitter": true,
-            "google": true,
+            "google": false,
             "vkontakte": false,
             "odnoklassniki": false
           },
