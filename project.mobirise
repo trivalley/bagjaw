@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "page6.html",
     "versionFirst": "3.2",
     "versionPublish": "5.2.0",
     "name": "index",
@@ -28,7 +28,7 @@
       ]
     },
     "scrollAnimation": "true",
-    "uniqCompNum": 83,
+    "uniqCompNum": 87,
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
     "favicon": false,
@@ -80,7 +80,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping<br><br>About Us</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"true\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
           "_tags": [
             "Theme"
           ],
@@ -511,7 +511,7 @@
       "settings": {
         "meta_descr": "Contact the manufacturer of BagJaw.",
         "title": "Contact Us",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -626,7 +626,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping<br><br>About Us</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"true\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
           "_tags": [
             "Theme"
           ],
@@ -666,7 +666,7 @@
       "settings": {
         "meta_descr": "",
         "title": "Shipping",
-        "order": 3
+        "order": 4
       },
       "components": [
         {
@@ -781,7 +781,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping<br><br>About Us</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"true\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
           "_tags": [
             "Theme"
           ],
@@ -824,7 +824,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -959,7 +959,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping<br><br>About Us</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"true\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1002,7 +1002,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 1
+        "order": 2
       },
       "components": [
         {
@@ -1152,7 +1152,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping<br><br>About Us</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"true\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1185,6 +1185,198 @@
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BagJaw.com</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-2a"
+        }
+      ]
+    },
+    "page6.html": {
+      "settings": {
+        "meta_descr": "Web Site Builder Description",
+        "title": "About Us",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            }
+          },
+          "_params": {
+            "showTitle": true,
+            "showText": true,
+            "showButton": false,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/clippings0001.gif",
+            "parallax": false,
+            "bgColorRadio": false,
+            "bgColor": "#F2F2F2",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": true,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "title": "About Us",
+          "text": "<p>We are a Small California Business and have been manufacturing and selling BagJaws for over 25 years.&nbsp;<span style=\"font-size: 1.07rem;\">Rake \"n\" Sweep, with a reusable bag was introduced in 2010. Thousands of each of them have been sold over the years, but we're still relatively unknown. We stand behind our products and we continually make improvements to the original concept. </span></p><p><span style=\"font-size: 1.07rem;\">\"As the Founder and Inventor, I am so appreciative of our customers, I&nbsp; personally thank them on each and every Packing List. I hope you'll be one soon\" - Jim Jelincic</span></p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box8",
+          "_anchor": "msg-box8-2e"
+        },
+        {
+          "_inherit": "menu",
+          "_params": {
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": false,
+            "bgColor": "#282828",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor"
+          },
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping<br><br>About Us</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"true\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            "A": {
+              "font-size": "18px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            }
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bagjaw-logo-2020-with-rsrev1-122x128.jpg",
+              "height": 128,
+              "alt": "BagJaw Holds Trash Bags Open",
+              "link": "https://bagjaw.com",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">BagJaw.com</a>",
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-2b"
+        },
+        {
+          "_name": "contacts1",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#2e2e2e",
+            "overlay": true,
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/bagjaw-logo-2020-128x134.jpg",
+              "width": 128,
+              "active": true,
+              "link": "www.bagjaw.com",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<strong>Address</strong><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">311 McCloud Pl</span><br><span style=\"font-size: 0.875rem; line-height: 1.5;\">Danville, CA 94526</span><br>",
+          "text2": "<strong>Contacts</strong><br>\nPhone: (925) 838-2480<br>email: info@trivalleypac.com<br><br><br><br>",
+          "text3": "<p><strong>Links</strong><br><a href=\"page5.html\" class=\"text-warning\">Rake \"n\" Sweep reusable bag</a></p><br><p><a href=\"https://www.deseret.com/2010/11/20/20154727/new-device-a-back-saver-when-raking-leaves#the-rake-n-sweep-is-a-40-gallon-reusable-bag-attached-to-a-dustpan-sort-of-a-pup-tent-for-leaves\" class=\"text-warning\" target=\"_blank\">In the News</a><a href=\"https://www.mercurynews.com/2010/08/16/rake-n-sweep/\" class=\"text-warning\" target=\"_blank\"><br></a></p><br><p><a href=\"https://www.mercurynews.com/2010/08/16/rake-n-sweep/\" class=\"text-warning text-primary\" target=\"_blank\">Newspaper Product Review</a></p><br><p><a href=\"https://www.youtube.com/watch?v=Nfq_pxLXFtI\" class=\"text-warning\" target=\"_blank\" style=\"font-size: 0.875rem; background-color: rgb(46, 46, 46);\">Fix It Home Improvement Channe</a><a href=\"https://www.youtube.com/watch?v=Nfq_pxLXFtIxLXFtI\" class=\"text-warning\" target=\"_blank\" style=\"font-size: 0.875rem; background-color: rgb(46, 46, 46);\">l</a><br></p><br><p><a href=\"https://www.youtube.com/watch?v=Nfq_pxLXFtI\" class=\"text-primary\"></a><a href=\"https://www.southcoasttoday.com/article/20101121/LIFE/101119917\" class=\"text-warning\" target=\"_blank\">McClatchy Article by Debbie Arrington</a></p><br><p><a href=\"https://rakensweep.blogspot.com/\" class=\"text-warning\" target=\"_blank\">Blog</a><a href=\"https://www.mercurynews.com/2010/08/16/rake-n-sweep/\" class=\"text-primary\" target=\"_blank\"><br></a><br><br></p>",
+          "_styles": {
+            "P": {
+              "color": "#f3c649"
+            }
+          },
+          "_anchor": "contacts1-2c"
+        },
+        {
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#323232",
+            "overlay": true,
+            "overlayColor": "#444444",
+            "overlayOpacity": 0.8
+          },
+          "text": "Copyright (c) 2020",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-2d"
         }
       ]
     }
