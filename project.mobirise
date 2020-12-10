@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page6.html",
+    "currentPage": "index.html",
     "versionFirst": "3.2",
     "versionPublish": "5.2.0",
     "name": "index",
@@ -80,7 +80,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page6.html\" aria-expanded=\"false\">Contact Us<br>About Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping<br><br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\"><p>Shipping</p></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"true\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"page6.html\">About Us</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -133,6 +133,9 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-size": "12px"
             }
           },
           "logo": {
@@ -626,7 +629,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page6.html\" aria-expanded=\"false\">Contact Us<br>About Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping<br><br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\"><p>Shipping</p></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"true\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"page6.html\">About Us</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -639,6 +642,49 @@
             },
             "A": {
               "font-size": "18px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-size": "12px"
             }
           },
           "logo": {
@@ -781,7 +827,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page6.html\" aria-expanded=\"false\">Contact Us<br>About Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping<br><br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\"><p>Shipping</p></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"true\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"page6.html\">About Us</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -794,6 +840,49 @@
             },
             "A": {
               "font-size": "18px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-size": "12px"
             }
           },
           "logo": {
@@ -959,7 +1048,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page6.html\" aria-expanded=\"false\">Contact Us<br>About Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping<br><br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\"><p>Shipping</p></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"true\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"page6.html\">About Us</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -972,6 +1061,49 @@
             },
             "A": {
               "font-size": "18px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-size": "12px"
             }
           },
           "logo": {
@@ -1152,7 +1284,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page6.html\" aria-expanded=\"false\">Contact Us<br>About Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping<br><br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\"><p>Shipping</p></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"true\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"page6.html\">About Us</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1165,6 +1297,49 @@
             },
             "A": {
               "font-size": "18px"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#0e0e0e"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#202020!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#282828"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-size": "12px"
             }
           },
           "logo": {
@@ -1244,7 +1419,7 @@
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
           },
-          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page6.html\" aria-expanded=\"false\">Contact Us<br>About Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\">Shipping<br><br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-success-outline btn-success\" href=\"index.html\"></a></li>",
+          "items": "<li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">Menu</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"index.html\" aria-expanded=\"false\">Home Page</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page4.html\">How to Assemble BagJaw</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page5.html\" aria-expanded=\"false\">Rake \"n\" Sweep Reusable Bag</a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page2.html\" aria-expanded=\"false\">Contact Us<br></a><a data-app-btn=\"true\" class=\"dropdown-item text-primary\" href=\"page3.html\" aria-expanded=\"false\"><p>Shipping</p></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"true\"></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#\" aria-expanded=\"false\"></a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white-outline btn-white\" href=\"page6.html\">About Us</a></li>",
           "_tags": [
             "Theme"
           ],
@@ -1297,6 +1472,9 @@
             },
             ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
               "color": "#c0a375!important"
+            },
+            ".btn": {
+              "font-size": "12px"
             }
           },
           "logo": {
